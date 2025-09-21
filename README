@@ -1,0 +1,5 @@
+# AI Chat bot reliable message delivery routines WIP 
+- for routing chat messages via Redis, SQS, and SNS
+- best-effort only: no end-to-end guarantees, no DLQ/backoff/idempotency
+
+requires AWS SNS/SQS setup
